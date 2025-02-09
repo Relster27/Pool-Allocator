@@ -2,7 +2,7 @@
 #include <errno.h>
 #include <sys/mman.h>
 
-#include "../includes/pool_allocator.h"
+#include "pool_allocator.h"
 
 typedef struct chunk {      // sizeof(chunk_t) = 32 bytes
     int flag;               // 1 for used, 0 for free
